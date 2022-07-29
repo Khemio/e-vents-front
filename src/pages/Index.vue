@@ -15,7 +15,7 @@
       <v-img
         class="white--text align-end"
         height="200px"
-        :src="`https://floating-bastion-34801.herokuapp.com${edge.node.thumbnail}`"
+        :src="edge.node.thumbnail"
       />
 
       <v-card-title>{{edge.node.title}}</v-card-title>
